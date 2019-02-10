@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DbStok">
+  <DataContextMoniker Name="/DbStokDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1ff367ba-d718-4eab-a2fe-b2852145cbef" isExpanded="false" absoluteBounds="1.875, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/bgFirma" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bfea7678-5e40-4e00-8b79-2607f5ced3be" absoluteBounds="1.8900000000000001, 2.835, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d6132431-77fa-400d-b1d2-4ea625fa1883" isExpanded="false" absoluteBounds="2, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/bgFirmaTipi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a48f732-b0f2-4ba7-afbf-a4028ec6e961" absoluteBounds="2.0149999999999997, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.9375 : 1.7); (2.9375 : 2.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DbStokDataContext/bgFirmaTipi/bgFirmaTipi_bgFirma" />
+      <nodes>
+        <classShapeMoniker Id="d6132431-77fa-400d-b1d2-4ea625fa1883" />
+        <classShapeMoniker Id="1ff367ba-d718-4eab-a2fe-b2852145cbef" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="01a19557-089f-4f9b-85b3-585848ff3983" isExpanded="false" absoluteBounds="5, 0.75, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/bgKategori" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8dd1e96a-791a-4b13-954d-d055a55f4777" absoluteBounds="5.0150000000000006, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45d4aa69-a1ba-4d0e-b0df-f8ae8094c578" isExpanded="false" absoluteBounds="1.5, 6, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/bgKullanicilar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="434b4645-7046-472a-8a36-552cd91474c1" absoluteBounds="1.5150000000000001, 6.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a99b2641-a5c4-49cd-b2da-06bdd356c6f3" isExpanded="false" absoluteBounds="1.5, 5, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/bgKulTipi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="01d43e2b-6373-4db1-a81f-33219e8e2bf0" absoluteBounds="1.5149999999999997, 5.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 5.45); (2.5 : 6)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbStokDataContext/bgKulTipi/bgKulTipi_bgKullanicilar" />
+      <nodes>
+        <classShapeMoniker Id="a99b2641-a5c4-49cd-b2da-06bdd356c6f3" />
+        <classShapeMoniker Id="45d4aa69-a1ba-4d0e-b0df-f8ae8094c578" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0b3d849e-89fb-427f-9ed5-11e209aa4ee9" isExpanded="false" absoluteBounds="5.25, 7.375, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/bgSira" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1275df97-492d-4e1f-b781-d6db05757fee" absoluteBounds="5.2650000000000006, 7.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="833d7e28-7559-4e8e-b76a-653623f7158c" isExpanded="false" absoluteBounds="5, 1.625, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/bgUrunGiri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91652b06-9739-4887-8b1d-f3a87a8db52f" absoluteBounds="5.015, 2.0850000000000009, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 1.2); (6 : 1.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbStokDataContext/bgKategori/bgKategori_bgUrunGiri" />
+      <nodes>
+        <classShapeMoniker Id="01a19557-089f-4f9b-85b3-585848ff3983" />
+        <classShapeMoniker Id="833d7e28-7559-4e8e-b76a-653623f7158c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="eaedc679-5d82-4222-92da-e489f6549e77" isExpanded="false" absoluteBounds="7.625, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/stStokDurum" />
+      <nestedChildShapes>
+        <elementListCompartment Id="975b61cc-8165-4d2b-a205-2cd56039da10" absoluteBounds="7.6400000000000006, 5.3350000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad5574c3-a768-4909-9220-74c04efdbd25" isExpanded="false" absoluteBounds="1.625, 7.25, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/stUrunKayitAlt" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c560def-038e-48e4-8b89-8ac3455ac180" absoluteBounds="1.6399999999999997, 7.7100000000000009, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="64635efb-5896-414c-8896-3ceea5ea7968" isExpanded="false" absoluteBounds="1.875, 3.75, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/stUrunKayitUst" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b1f0751-991f-4be9-bfd0-aea8dbc1dabf" absoluteBounds="1.8900000000000006, 4.2100000000000009, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.53125 : 2.825); (3.53125 : 3.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DbStokDataContext/bgFirma/bgFirma_stUrunKayitUst" />
+      <nodes>
+        <classShapeMoniker Id="1ff367ba-d718-4eab-a2fe-b2852145cbef" />
+        <classShapeMoniker Id="64635efb-5896-414c-8896-3ceea5ea7968" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0c7c2063-0a32-40a0-86ce-25558b6f4b47" isExpanded="false" absoluteBounds="7.375, 3.5, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/stUrunCiki" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f5f69948-7ae4-4706-b4e5-d0cb24b03a5f" absoluteBounds="7.3900000000000006, 3.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.875 : 2.53125); (8.46875 : 2.53125); (8.46875 : 3.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DbStokDataContext/bgFirma/bgFirma_stUrunCiki" />
+      <nodes>
+        <classShapeMoniker Id="1ff367ba-d718-4eab-a2fe-b2852145cbef" />
+        <classShapeMoniker Id="0c7c2063-0a32-40a0-86ce-25558b6f4b47" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.59375 : 4.875); (8.59375 : 3.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbStokDataContext/stStokDurum/stStokDurum_stUrunCiki" />
+      <nodes>
+        <classShapeMoniker Id="eaedc679-5d82-4222-92da-e489f6549e77" />
+        <classShapeMoniker Id="0c7c2063-0a32-40a0-86ce-25558b6f4b47" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="acc638b7-6c08-4ebf-8f21-f34ea9a9fa6c" isExpanded="false" absoluteBounds="6.375, 6.125, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/ftFaturaKesAlt" />
+      <nestedChildShapes>
+        <elementListCompartment Id="338f418e-c3b7-4010-bbdb-077dee94afe3" absoluteBounds="6.3900000000000006, 6.5850000000000009, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8 : 5.325); (8 : 6.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbStokDataContext/stStokDurum/stStokDurum_ftFaturaKesAlt" />
+      <nodes>
+        <classShapeMoniker Id="eaedc679-5d82-4222-92da-e489f6549e77" />
+        <classShapeMoniker Id="acc638b7-6c08-4ebf-8f21-f34ea9a9fa6c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b61c3658-2e8c-4a23-b4b0-2317df37c9ea" isExpanded="false" absoluteBounds="5.125, 4, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/ftFaturaKesUst" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fcc0c0b2-442f-4111-b9e1-5a44f193579b" absoluteBounds="5.14, 4.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.03125 : 4.45); (7.03125 : 6.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbStokDataContext/ftFaturaKesUst/ftFaturaKesUst_ftFaturaKesAlt" />
+      <nodes>
+        <classShapeMoniker Id="b61c3658-2e8c-4a23-b4b0-2317df37c9ea" />
+        <classShapeMoniker Id="acc638b7-6c08-4ebf-8f21-f34ea9a9fa6c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.875 : 2.6406275); (5.28125 : 2.6406275); (5.28125 : 4)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DbStokDataContext/bgFirma/bgFirma_ftFaturaKesUst" />
+      <nodes>
+        <classShapeMoniker Id="1ff367ba-d718-4eab-a2fe-b2852145cbef" />
+        <classShapeMoniker Id="b61c3658-2e8c-4a23-b4b0-2317df37c9ea" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="64a355f3-c42c-4a45-999b-d332e87ce6bb" isExpanded="false" absoluteBounds="5.5, 2.75, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/vwFaturaKe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c833f4f7-e285-4749-b142-7f941aacf2e7" absoluteBounds="5.515, 3.21, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="903c8fa6-8362-4440-bac4-5d199481b358" absoluteBounds="4.875, 5.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DbStokDataContext/vwUC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33d75a94-abe9-46da-870a-0c0ade382d17" absoluteBounds="4.89, 5.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c8cde8a9-e188-49d8-b089-1dd0d96f4eee" isExpanded="false" absoluteBounds="1.125, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DbStokDataContext/vwUKL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a23ed410-32a0-4ddb-b4b6-9916022140a1" absoluteBounds="1.1400000000000001, 0.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
