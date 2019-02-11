@@ -16,7 +16,7 @@ namespace SLNStokTakip.Bilgi
     {
          DbStokDataContext _db = new DbStokDataContext();
          DbStokDataContext _gb = new DbStokDataContext();
-
+          
         readonly Formlar _f = new Formlar();
         readonly Mesajlar _m = new Mesajlar();
         readonly Numaralar _n = new Numaralar();

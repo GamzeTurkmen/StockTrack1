@@ -37,9 +37,9 @@
             this.Gsm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ktipi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnYaz = new System.Windows.Forms.Button();
             this.txtAdi = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnYaz = new System.Windows.Forms.Button();
             this.btnBul = new System.Windows.Forms.Button();
             this.btnKapat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -153,6 +153,17 @@
             this.Id.ReadOnly = true;
             this.Id.Visible = false;
             // 
+            // btnYaz
+            // 
+            this.btnYaz.BackgroundImage = global::SLNStokTakip.Properties.Resources.Print_512;
+            this.btnYaz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnYaz.Location = new System.Drawing.Point(-2, 139);
+            this.btnYaz.Name = "btnYaz";
+            this.btnYaz.Size = new System.Drawing.Size(150, 103);
+            this.btnYaz.TabIndex = 6;
+            this.btnYaz.UseVisualStyleBackColor = true;
+            this.btnYaz.Click += new System.EventHandler(this.btnYaz_Click);
+            // 
             // txtAdi
             // 
             this.txtAdi.Location = new System.Drawing.Point(1, 294);
@@ -169,17 +180,6 @@
             this.label2.Size = new System.Drawing.Size(45, 22);
             this.label2.TabIndex = 4;
             this.label2.Text = "Adı :";
-            // 
-            // btnYaz
-            // 
-            this.btnYaz.BackgroundImage = global::SLNStokTakip.Properties.Resources.Print_512;
-            this.btnYaz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnYaz.Location = new System.Drawing.Point(-2, 135);
-            this.btnYaz.Name = "btnYaz";
-            this.btnYaz.Size = new System.Drawing.Size(150, 107);
-            this.btnYaz.TabIndex = 6;
-            this.btnYaz.UseVisualStyleBackColor = true;
-            this.btnYaz.Click += new System.EventHandler(this.btnYaz_Click);
             // 
             // btnBul
             // 

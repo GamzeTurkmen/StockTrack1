@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace SLNStokTakip
 {
     public partial class AnaSayfa : Form
-    {
+    { 
         Hangar.Formlar _f = new Hangar.Formlar();
         Hangar.Mesajlar _m = new Hangar.Mesajlar();
 

@@ -17,6 +17,6 @@ namespace SLNStokTakip
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new AnaSayfa());
-        }
+        } 
     }
 }

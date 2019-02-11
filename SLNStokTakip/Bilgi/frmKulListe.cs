@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SLNStokTakip.Bilgi
-{
+{ 
     public partial class frmKulListe : Form
     {
         readonly Hangar.DbStokDataContext _db = new Hangar.DbStokDataContext();
 
         readonly Hangar.Formlar _f = new Hangar.Formlar();
 
-        public bool Secim = false;
+        public bool Secim = false;  
         int _secimId = -1;
         
         public frmKulListe()

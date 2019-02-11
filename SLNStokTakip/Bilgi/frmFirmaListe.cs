@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SLNStokTakip.Hangar;
 
-namespace SLNStokTakip.Bilgi
+namespace SLNStokTakip.Bilgi  
 {
     public partial class frmFirmaListe : Form
     {

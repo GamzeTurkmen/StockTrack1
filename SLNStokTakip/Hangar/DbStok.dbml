@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="StokTakip" Class="DbStokDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=StokTakip;Integrated Security=True" SettingsObjectName="SLNStokTakip.Properties.Settings" SettingsPropertyName="StokTakipConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=desktop-ipm9elg\sqlexpress;Initial Catalog=StokTakip;Integrated Security=True" SettingsObjectName="SLNStokTakip.Properties.Settings" SettingsPropertyName="StokTakipConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.bgFirma" Member="bgFirmas">
     <Type Name="bgFirma">
       <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />

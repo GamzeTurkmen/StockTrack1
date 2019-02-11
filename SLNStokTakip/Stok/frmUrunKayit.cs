@@ -19,7 +19,7 @@ namespace SLNStokTakip.Stok
         Formlar _f = new Formlar();
         Numaralar _n = new Numaralar();
         Mesajlar _m = new Mesajlar();
-
+           
 
         bool _edit = false;
         public string[] MyArray { get; set; }

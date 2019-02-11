@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.button1 = new System.Windows.Forms.Button();
             this.txtGenelNo = new System.Windows.Forms.TextBox();
             this.cbKtipi = new System.Windows.Forms.ComboBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -47,7 +48,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
             this.btnKaydet = new System.Windows.Forms.Button();
             this.btnKapat = new System.Windows.Forms.Button();
@@ -109,6 +109,18 @@
             this.splitContainer1.Size = new System.Drawing.Size(686, 411);
             this.splitContainer1.SplitterDistance = 553;
             this.splitContainer1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackgroundImage = global::SLNStokTakip.Properties.Resources.Untitled_1_512;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(82, 16);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(97, 102);
+            this.button1.TabIndex = 4;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // txtGenelNo
             // 
@@ -264,18 +276,6 @@
             this.label2.Text = "Adı :";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackgroundImage = global::SLNStokTakip.Properties.Resources.Untitled_1_512;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(82, 16);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 102);
-            this.button1.TabIndex = 4;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // btnSil
             // 
             this.btnSil.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -308,7 +308,7 @@
             this.btnKapat.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnKapat.Location = new System.Drawing.Point(0, 0);
             this.btnKapat.Name = "btnKapat";
-            this.btnKapat.Size = new System.Drawing.Size(127, 89);
+            this.btnKapat.Size = new System.Drawing.Size(127, 92);
             this.btnKapat.TabIndex = 0;
             this.btnKapat.UseVisualStyleBackColor = true;
             this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);

@@ -16,9 +16,9 @@ namespace SLNStokTakip.Stok
     public partial class frmUrunCikisListe : Form
     {
         DbStokDataContext _db = new DbStokDataContext();
-
+          
         Formlar _f = new Formlar();
-        Mesajlar _m = new Mesajlar();
+        Mesajlar _m = new Mesajlar();  
         public bool Secim = false;
         int _secimId = -1;
 

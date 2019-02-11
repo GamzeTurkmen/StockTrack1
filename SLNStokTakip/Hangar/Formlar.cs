@@ -4,7 +4,7 @@ using SLNStokTakip.Stok;
 using SLNStokTakip.Fatura;
 
 namespace SLNStokTakip.Hangar
-{
+{ 
     class Formlar
     {
         #region Kullanıcı İşlemleri

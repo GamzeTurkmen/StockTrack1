@@ -16,7 +16,7 @@ namespace SLNStokTakip.Fatura
         DbStokDataContext _db = new DbStokDataContext();
         Formlar _f = new Formlar();
         public bool Secim = false;
-
+         
         int _secimId = -1;
 
         public frmCikisBul()

@@ -18,7 +18,7 @@ namespace SLNStokTakip.Bilgi
 
         Mesajlar _m = new Mesajlar();
         Numaralar _n = new Numaralar();
-        Formlar _f = new Formlar();
+        Formlar _f = new Formlar();  
 
         bool _edit = false;
 

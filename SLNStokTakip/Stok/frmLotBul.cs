@@ -21,7 +21,7 @@ namespace SLNStokTakip.Stok
 
 
         public frmLotBul()
-        {
+        { 
             InitializeComponent();
         }
 

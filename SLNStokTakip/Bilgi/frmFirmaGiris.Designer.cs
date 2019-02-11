@@ -367,9 +367,9 @@
             // 
             this.btnKaydet.BackgroundImage = global::SLNStokTakip.Properties.Resources._53436323_save_file_computer_icon_vector_image_can_also_be_used_for_text_editing_suitable_for_mobile_apps_web_1;
             this.btnKaydet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnKaydet.Location = new System.Drawing.Point(0, 357);
+            this.btnKaydet.Location = new System.Drawing.Point(0, 361);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(113, 101);
+            this.btnKaydet.Size = new System.Drawing.Size(113, 97);
             this.btnKaydet.TabIndex = 4;
             this.btnKaydet.UseVisualStyleBackColor = true;
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click_1);

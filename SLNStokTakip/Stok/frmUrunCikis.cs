@@ -39,7 +39,7 @@ namespace SLNStokTakip.Stok
         {
             switch (splitContainer1.Panel2Collapsed)
             {
-                case true:
+                case true: 
                     splitContainer1.Panel2Collapsed = false;
                     btnCollaps.Text = "GİZLE";
                     break;

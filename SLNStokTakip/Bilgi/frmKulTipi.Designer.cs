@@ -80,7 +80,7 @@
             this.btnKaydet.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnKaydet.Location = new System.Drawing.Point(298, 12);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(75, 68);
+            this.btnKaydet.Size = new System.Drawing.Size(75, 72);
             this.btnKaydet.TabIndex = 0;
             this.btnKaydet.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnKaydet.UseVisualStyleBackColor = true;

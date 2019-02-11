@@ -26,7 +26,8 @@ namespace SLNStokTakip.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=StokTakip;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=desktop-ipm9elg\\sqlexpress;Initial Catalog=StokTakip;Integrated Secur" +
+            "ity=True")]
         public string StokTakipConnectionString {
             get {
                 return ((string)(this["StokTakipConnectionString"]));

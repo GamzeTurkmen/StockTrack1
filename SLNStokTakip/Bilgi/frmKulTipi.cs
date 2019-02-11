@@ -17,7 +17,7 @@ namespace SLNStokTakip.Bilgi
         readonly Mesajlar _m = new Mesajlar();
         readonly Formlar _f = new Formlar();
 
-        public bool Secim = false;
+        public bool Secim = false;  
         int _secimId = -1;
         bool _edit = false;
 

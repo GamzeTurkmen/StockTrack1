@@ -8,13 +8,13 @@
         <elementListCompartment Id="bfea7678-5e40-4e00-8b79-2607f5ced3be" absoluteBounds="1.8900000000000001, 2.835, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="d6132431-77fa-400d-b1d2-4ea625fa1883" isExpanded="false" absoluteBounds="2, 1.25, 2, 0.45">
+    <classShape Id="d6132431-77fa-400d-b1d2-4ea625fa1883" isExpanded="false" absoluteBounds="1.75, 1.25, 2.25, 0.45">
       <DataClassMoniker Name="/DbStokDataContext/bgFirmaTipi" />
       <nestedChildShapes>
-        <elementListCompartment Id="6a48f732-b0f2-4ba7-afbf-a4028ec6e961" absoluteBounds="2.0149999999999997, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="6a48f732-b0f2-4ba7-afbf-a4028ec6e961" absoluteBounds="1.7649999999999997, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(2.9375 : 1.7); (2.9375 : 2.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.875 : 1.7); (2.875 : 2.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/DbStokDataContext/bgFirmaTipi/bgFirmaTipi_bgFirma" />
       <nodes>
         <classShapeMoniker Id="d6132431-77fa-400d-b1d2-4ea625fa1883" />
@@ -83,7 +83,7 @@
         <elementListCompartment Id="2b1f0751-991f-4be9-bfd0-aea8dbc1dabf" absoluteBounds="1.8900000000000006, 4.2100000000000009, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(3.53125 : 2.825); (3.53125 : 3.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(3.53125 : 2.825); (3.53125 : 3.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/DbStokDataContext/bgFirma/bgFirma_stUrunKayitUst" />
       <nodes>
         <classShapeMoniker Id="1ff367ba-d718-4eab-a2fe-b2852145cbef" />
@@ -96,7 +96,7 @@
         <elementListCompartment Id="f5f69948-7ae4-4706-b4e5-d0cb24b03a5f" absoluteBounds="7.3900000000000006, 3.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(3.875 : 2.53125); (8.46875 : 2.53125); (8.46875 : 3.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(3.875 : 2.53125); (8.46875 : 2.53125); (8.46875 : 3.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/DbStokDataContext/bgFirma/bgFirma_stUrunCiki" />
       <nodes>
         <classShapeMoniker Id="1ff367ba-d718-4eab-a2fe-b2852145cbef" />
@@ -136,7 +136,7 @@
         <classShapeMoniker Id="acc638b7-6c08-4ebf-8f21-f34ea9a9fa6c" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(3.875 : 2.6406275); (5.28125 : 2.6406275); (5.28125 : 4)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(3.875 : 2.6406275); (5.28125 : 2.6406275); (5.28125 : 4)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/DbStokDataContext/bgFirma/bgFirma_ftFaturaKesUst" />
       <nodes>
         <classShapeMoniker Id="1ff367ba-d718-4eab-a2fe-b2852145cbef" />

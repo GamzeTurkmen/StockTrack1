@@ -197,9 +197,9 @@
             this.btnKaydet.BackgroundImage = global::SLNStokTakip.Properties.Resources._37542626_save_icon1;
             this.btnKaydet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnKaydet.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnKaydet.Location = new System.Drawing.Point(0, 359);
+            this.btnKaydet.Location = new System.Drawing.Point(0, 356);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(137, 87);
+            this.btnKaydet.Size = new System.Drawing.Size(137, 90);
             this.btnKaydet.TabIndex = 1;
             this.btnKaydet.UseVisualStyleBackColor = true;
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);

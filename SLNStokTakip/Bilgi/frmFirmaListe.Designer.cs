@@ -168,7 +168,7 @@
             this.btnKapat.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnKapat.Location = new System.Drawing.Point(0, 0);
             this.btnKapat.Name = "btnKapat";
-            this.btnKapat.Size = new System.Drawing.Size(141, 109);
+            this.btnKapat.Size = new System.Drawing.Size(141, 105);
             this.btnKapat.TabIndex = 2;
             this.btnKapat.UseVisualStyleBackColor = true;
             this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);

@@ -18,7 +18,7 @@ namespace SLNStokTakip.Fatura
 
         public bool Secim = false;
         int _secimId = -1;
-        public string UstL;
+        public string UstL; 
         
 
         public frmFaturaKesListe()
